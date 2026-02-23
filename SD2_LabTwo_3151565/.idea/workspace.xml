@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="add switchCase test methods">
+    <list default="true" id="a79f1b14-62ff-4d7d-a619-5a888b854271" name="Changes" comment="add comments and refactor code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conversions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +113,8 @@
       <updated>1771853515361</updated>
       <workItem from="1771853516544" duration="813000" />
       <workItem from="1771854339810" duration="1292000" />
-      <workItem from="1771856429412" duration="804000" />
+      <workItem from="1771856429412" duration="3247000" />
+      <workItem from="1771868748498" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="Add conversions stub methods">
       <option name="closed" value="true" />
@@ -202,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771856867719</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add switchCase implementation and fix test bug">
+      <option name="closed" value="true" />
+      <created>1771857373457</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771857373457</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add comments and refactor code">
+      <option name="closed" value="true" />
+      <created>1771857446669</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771857446669</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +237,9 @@
     <MESSAGE value="add integerToString test methods" />
     <MESSAGE value="add implementation of integerToString  method" />
     <MESSAGE value="add switchCase test methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add switchCase test methods" />
+    <MESSAGE value="add switchCase implementation and fix test bug" />
+    <MESSAGE value="add comments and refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comments and refactor code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
