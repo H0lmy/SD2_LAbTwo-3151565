@@ -50,6 +50,27 @@ public class ConversionsTest {
     }
 
 
+    @Test
+    public void stringToIntegerDefaultValue() {
+        int result = c.stringToInteger("100");
+        assertEquals(100, result);
+    }
+
+    @Test
+    public void stringToIntegerNullValue() {
+        int result = c.stringToInteger(null);
+        assertEquals(0, result);
+    }
+
+    @Test
+    public void stringToIntegerEmptyValue() {
+        int result = c.stringToInteger("");
+        assertEquals(0, result);
+    }
+
+
+
+
 
 
 }
