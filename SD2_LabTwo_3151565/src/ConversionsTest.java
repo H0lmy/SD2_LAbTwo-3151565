@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class ConversionsTest {
     private static Conversions c;
@@ -13,7 +15,7 @@ public class ConversionsTest {
     @Test
     public void euroToDollarDefaultValue() {
         double result = c.euroToDollar(100);
-        assert(result==110);
+        assertEquals(110, result, 0.001);
     }
 
     @Test
